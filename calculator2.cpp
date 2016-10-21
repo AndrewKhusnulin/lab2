@@ -26,7 +26,7 @@ int sub(int x, int y)
 {
 	return(x - y); 
 }
-unsigned sqrt(double xL)
+unsigned sqrt(double x)
 {
 	unsigned div = 1, rslt = 0;
 	while (x > 0)
