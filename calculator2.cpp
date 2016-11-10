@@ -42,8 +42,7 @@ unsigned sqrt(double x)
 int main()
 {
 	int a, b, r, r2, r3,r4, r5;
-	printf("a="); scanf_s("%d", &a);
-	printf("b="); scanf_s("%d", &b);
+	a=4;b=1;
 	double r6;
 	r = sum(a, b);   printf("r=%d", r);
 	r2 = mult(a, b); printf("\nr2=%d", r2);
