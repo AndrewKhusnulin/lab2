@@ -1,4 +1,4 @@
-#include<stdio.h>
+ //#include<stdio.h>
 #include<stdlib.h> 
 #include<conio.h>
 int sum(int x, int y)
@@ -11,7 +11,7 @@ int mult(int x, int y)
 }
 int dev(int x, int y)
 {
-	return(x / y);
+	return(x / y); // Не реализована проверка деления на 0
 }
 int pow(int x, int y)
 {
